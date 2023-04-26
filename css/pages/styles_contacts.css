@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: url('../../images/fond2.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.iglogo {
+    display: flex;
+    filter: brightness(0) invert(1);
+    display: block;
+    width: 16%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.maillogo {
+    display: flex;
+    filter: brightness(0) invert(1);
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-top: -14%;
+    margin-left: 10%;
+}
+
+.ynovlogo {
+    display: flex;
+    filter: brightness(0) invert(1);
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-top: -13%;
+    margin-right: 10%;
+}
